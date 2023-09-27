@@ -720,11 +720,13 @@ fill: var(--white);
     outline: 0;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.user-contact input:hover + svg,
-.user-contact input:focus + svg {
+/* .user-contact input:hover + svg, */
+/* .user-contact input:focus + svg  */
+.user-contact-input:hover + .user-contact-field-icon,
+.user-contact-input:focus + .user-contact-field-icon {
     fill: var(--iris);
     stroke: var(--white);
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 label.user-contact-checkbox{
     display: flex;
