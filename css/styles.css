@@ -711,10 +711,10 @@ fill: var(--white);
     height: 150px;
     padding-left: 16px;
 }
-.user-contact input:hover,
 .user-contact input:focus,
+.user-contact textarea:focus,
 .user-contact input:hover,
-.user-contact textarea:focus
+.user-contact textarea:hover
 {
     border-color: var(--iris);
     outline: 0;
